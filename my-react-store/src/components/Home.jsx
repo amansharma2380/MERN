@@ -1,6 +1,6 @@
 function Home(){
     return(
-<h1>home</h1>
+<h2>Welcom to home </h2>
     );
 }
 export default Home;

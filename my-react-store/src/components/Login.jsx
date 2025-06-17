@@ -1,6 +1,13 @@
 function Login(){
     return(
-        <h1>Login</h1>
+        <div>
+<form action="submit">
+    <input type="Text" placeholder="Enter name"/><br /><br />
+    <input type="password" placeholder="Enter password" /><br />
+    <button type="Submit">Login</button>
+</form>
+
+        </div>
     );
 }
 export default Login;
